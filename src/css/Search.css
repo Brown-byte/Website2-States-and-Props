@@ -1,0 +1,79 @@
+/*.main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+.main .SearchBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main .SearchBox .search{
+    width: 35%;
+    padding: 12px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid rgb(216, 215, 215);
+    outline: none;
+    font-size: 16px;
+}
+
+.main .SearchBox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 13px 380px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.main .buttons{
+    margin-top: 20px;
+}
+
+.main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: rgb(69, 68, 68);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.main .buttons button:hover{
+    border: 1px solid black;
+}
+
+.main .languages{
+    display: flex;
+    margin-top: 15px;
+    padding: 5px 500px;
+    
+}
+
+.main .languages li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+
+}
+
+.main .languages li a{
+    text-decoration: none;
+    color: rgb(7, 27, 209)
+}
+
+.main .languages li a:hover{
+    text-decoration: underline;
+}
